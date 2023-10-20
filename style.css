@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+#tienda{
+    display: grid;
+    grid-template-areas: "productes carrito";
+    grid-template-columns: 80% 1fr;
+}
+
+#container-productes{
+    grid-area: productes;
+}
+.container-pr{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#container-carrito{
+    grid-area: carrito;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+#title-carrito{
+    text-align: center;
+    background-color: #6b6b6b;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda Pelis</title>
+</head>
+<body>
+    <div id="app">
+        <div v-if="mostrar('portada')" id="portada">
+            <h1>Tienda de productos</h1>
+            <button @click="cambiarDiv('tienda')">Mostrar tienda</button>
+        </div>
+        <div v-if="mostrar('tienda')" id="tienda">
+            <div id="container-productes">
+                <h1>Productes</h1>
+                <div v-for="(producte,index) in productes" class="container-pr">
+                    <img :src="producte.imagen" alt="imagen_producte" width="300" height="400">
+                    <p>{{ producte.nom }}</p>
+                    <p>{{ producte.precio }}€</p>
+
+                    <div>
+                        <button @click="restarProducteT(index)">-</button>
+                        <input v-model="producte.cont" type="text">
+                        <button @click="sumarProducteT(index)">+</button>
+                        <button @click="addCarrito(index)">Añadir al carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div id="container-carrito">
+                <h1 id="title-carrito">Carrito</h1>
+
+                <div v-for="(producteCarrito,index) in carrito" class="container-pr">
+                    <img :src="producteCarrito.imagen" alt="imagen_producte" width="300" height="400">
+                    <p>{{ producteCarrito.nom }}</p>
+                    <p>{{ producteCarrito.precio }}€</p>
+
+                    <p>{{ producteCarrito.cont }}</p>
+                    <button @click="restarProducteC(index)">-</button>
+                    <button @click="sumarProducteC(index)">+</button><br>
+                    <button @click="eliminarProducteCarrito(index)">Eliminar del carrito</button>
+                </div>
+                <button id="buttonCheckout" v-if="carrito.length > 0" @click="cambiarDiv('checkout')">CheckOut</button>
+            </div>
+        </div>
+        <div v-if="mostrar('checkout')" id="checkout">
+            <h2>Total a pagar {{ contarCheckout() }}€</h2>
+            <button @click="cambiarDiv('tienda')">Volver a la tienda</button>
+        </div>
+    </div>
+    <script src="js/functions.js" type="module"></script>
+</body>
+</html>

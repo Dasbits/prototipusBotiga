@@ -1,0 +1,124 @@
+{
+    "productes":[
+        {
+            "nom": "Titanic",
+            "categoria": "Romance",
+            "precio": 19.99,
+            "stock": 50,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Pulp Fiction",
+            "categoria": "Thriller",
+            "precio": 14.50,
+            "stock": 30,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Inception",
+            "categoria": "Ciencia Ficción",
+            "precio": 22.75,
+            "stock": 20,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "The Godfather",
+            "categoria": "Drama",
+            "precio": 24.99,
+            "stock": 15,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Avatar",
+            "categoria": "Acción",
+            "precio": 18.95,
+            "stock": 25,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Forrest Gump",
+            "categoria": "Drama",
+            "precio": 17.50,
+            "stock": 35,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "The Shawshank Redemption",
+            "categoria": "Drama",
+            "precio": 16.99,
+            "stock": 40,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Jurassic Park",
+            "categoria": "Aventura",
+            "precio": 21.25,
+            "stock": 28,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "The Dark Knight",
+            "categoria": "Acción",
+            "precio": 23.99,
+            "stock": 22,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "The Matrix",
+            "categoria": "Ciencia Ficción",
+            "precio": 20.95,
+            "stock": 18,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Gladiator",
+            "categoria": "Acción",
+            "precio": 17.75,
+            "stock": 33,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "La La Land",
+            "categoria": "Musical",
+            "precio": 15.99,
+            "stock": 45,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "The Social Network",
+            "categoria": "Drama",
+            "precio": 13.50,
+            "stock": 55,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Gone with the Wind",
+            "categoria": "Romance",
+            "precio": 12.75,
+            "stock": 29,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        },
+        {
+            "nom": "Casablanca",
+            "categoria": "Romance",
+            "precio": 16.50,
+            "stock": 24,
+            "imagen": "https://www.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/12/noche-halloween-2181605.jpg",
+            "cont": 0
+        }
+    ]
+}
